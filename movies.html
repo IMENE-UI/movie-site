@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Library</title>
+    <link rel="stylesheet" href="movies.css">
+</head>
+<body>
+    <header>
+        <h1>Movie Library</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="search">
+            <input type="text" id="searchInput" placeholder="Search for a movie..." />
+        </section>
+        <section id="movies">
+            <h2>Featured Movies</h2>
+            <div class="movie-list" id="movieList"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Movie Library</p>
+    </footer>
+
+    <script src="movies.js"></script>
+</body>
+</html>
